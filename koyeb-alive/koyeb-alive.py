@@ -97,7 +97,7 @@ def send_tg_message(message: str) -> Optional[Dict[str, Any]]:
 def verify_koyeb_account_status(email: str, pat: str) -> Tuple[bool, str]:
     """
     使用 PAT 调用 /v1/account/profile 端点，并验证账户状态。
-    """
+    ulinkssss@gmail.com:pOOn@680620
     if not email or not pat:
         return False, "邮箱或个人访问令牌 (PAT) 为空"
 
