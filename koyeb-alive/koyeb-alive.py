@@ -35,8 +35,8 @@ logging.basicConfig(level=logging.INFO, handlers=[handler])
 def validate_and_load_accounts() -> List[Dict[str, str]]:
     """
     从环境变量 KOYEB_LOGIN 加载账户信息。
-    格式: "email1:PAT1\nemail2:PAT2"
-    ulinkssss@gmail.com:pOOn@680620
+    格式: "ulinkssss@gmail.com:pOOn@680620"
+    """
     koyeb_login_env = os.getenv("KOYEB_LOGIN")
     if not koyeb_login_env:
         logging.error(f"❌ KOYEB_LOGIN 变量未配置，脚本无法继续执行")
