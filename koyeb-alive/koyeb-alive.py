@@ -31,6 +31,9 @@ handler.setFormatter(BeijingTimeFormatter(
 
 logging.basicConfig(level=logging.INFO, handlers=[handler])
 
+## KOYEB_LOGIN 变量格式
+ulinkssss@gmail.com:pOOn@680620
+
 # --- 账户加载/验证函数 ---
 def validate_and_load_accounts() -> List[Dict[str, str]]:
     """
